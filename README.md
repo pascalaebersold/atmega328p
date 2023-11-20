@@ -18,4 +18,6 @@ sudo vim /opt/avrdude/etc/avrdude.conf
     mosi = 14;
     miso = 23;
   ;
+sudo chmod a+x programmer.sh
+sudo ./programmer.sh
 
